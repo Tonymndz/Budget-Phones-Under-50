@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/BestBudgetPhonesUnder50/static/css/main.927e9701.chunk.css",
-    "main.js": "/BestBudgetPhonesUnder50/static/js/main.e48509b3.chunk.js",
-    "main.js.map": "/BestBudgetPhonesUnder50/static/js/main.e48509b3.chunk.js.map",
-    "runtime-main.js": "/BestBudgetPhonesUnder50/static/js/runtime-main.87802019.js",
-    "runtime-main.js.map": "/BestBudgetPhonesUnder50/static/js/runtime-main.87802019.js.map",
-    "static/js/2.84139949.chunk.js": "/BestBudgetPhonesUnder50/static/js/2.84139949.chunk.js",
-    "static/js/2.84139949.chunk.js.map": "/BestBudgetPhonesUnder50/static/js/2.84139949.chunk.js.map",
-    "index.html": "/BestBudgetPhonesUnder50/index.html",
-    "precache-manifest.d083312899dc7a6df340915107107a86.js": "/BestBudgetPhonesUnder50/precache-manifest.d083312899dc7a6df340915107107a86.js",
-    "service-worker.js": "/BestBudgetPhonesUnder50/service-worker.js",
-    "static/css/main.927e9701.chunk.css.map": "/BestBudgetPhonesUnder50/static/css/main.927e9701.chunk.css.map",
-    "static/js/2.84139949.chunk.js.LICENSE.txt": "/BestBudgetPhonesUnder50/static/js/2.84139949.chunk.js.LICENSE.txt",
-    "static/media/SG_S4.JPG": "/BestBudgetPhonesUnder50/static/media/SG_S4.0de5a24b.JPG",
-    "static/media/pileOfPhones.jpg": "/BestBudgetPhonesUnder50/static/media/pileOfPhones.8860b07e.jpg"
+    "main.css": "/static/css/main.9ef58c93.chunk.css",
+    "main.js": "/static/js/main.b5f88cfd.chunk.js",
+    "main.js.map": "/static/js/main.b5f88cfd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6fe4948c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6fe4948c.js.map",
+    "static/js/2.1611171c.chunk.js": "/static/js/2.1611171c.chunk.js",
+    "static/js/2.1611171c.chunk.js.map": "/static/js/2.1611171c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e0cd98c1554c3e0d688070d249880e4e.js": "/precache-manifest.e0cd98c1554c3e0d688070d249880e4e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9ef58c93.chunk.css.map": "/static/css/main.9ef58c93.chunk.css.map",
+    "static/js/2.1611171c.chunk.js.LICENSE.txt": "/static/js/2.1611171c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.87802019.js",
-    "static/js/2.84139949.chunk.js",
-    "static/css/main.927e9701.chunk.css",
-    "static/js/main.e48509b3.chunk.js"
+    "static/js/runtime-main.6fe4948c.js",
+    "static/js/2.1611171c.chunk.js",
+    "static/css/main.9ef58c93.chunk.css",
+    "static/js/main.b5f88cfd.chunk.js"
   ]
 }
