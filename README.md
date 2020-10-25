@@ -10,7 +10,7 @@ There are 3 pages:
   - [Best Budget Phones under $100](http://under-100.bestbudgetphones.technology/)
   - [Best Budget Phones under $50](http://under-50.bestbudgetphones.technology/)
     
-All of the pages are very similar, and all of them were created using:
+All of the pages are similar and all of them were created using:
   - Create-react-app
   - React
   - Redux
@@ -20,7 +20,7 @@ All of the pages are very similar, and all of them were created using:
   - Axios
   - Figma
 
-Then for the backend of all the sites we used:
+Then for the backend of all the sites used:
   - NodeJs
   - Bcryptjs
   - MonogoDB
