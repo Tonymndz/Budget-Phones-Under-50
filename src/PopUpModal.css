@@ -1,0 +1,158 @@
+.FlexJusitfy {
+  display: flex;
+  justify-content: center;
+}
+
+.FlexJusitfy button {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #222325;
+  height: 34px;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #5c5c5e;
+  flex-grow: 1;
+}
+
+#SignInOptBtn {
+  border-radius: 11px 0px 0px 0px;
+  transition: 0.3s;
+}
+
+#SignInOptBtn:hover {
+  border-bottom: 4px solid #559aee;
+}
+
+#SignInOptBtnHighlight {
+  border-radius: 11px 0px 0px 0px;
+  border-bottom: 4px solid #df5e2b;
+}
+
+#RegisterOptBtn {
+  border-radius: 0px 11px 0px 0px;
+  transition: 0.3s;
+}
+
+#RegisterOptBtn:hover {
+  border-bottom: 4px solid #559aee;
+}
+
+#RegisterOptBtnHighlight {
+  border-radius: 0px 11px 0px 0px;
+  border-bottom: 4px solid #df5e2b;
+}
+
+.FlexAlignInfo {
+  flex: display;
+  flex-direction: row;
+  height: 100vh;
+  color: white;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.FlexAlignInfo label {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding-bottom: 5px;
+}
+
+.FlexAlignInfo input {
+  background: #D6D6DC;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 280px;
+  height: 32px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.FlexAlignInfo input:hover { 
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.FlexAlignInfo button {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  width: 280px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 12px;
+  transition: 0.4s;
+  margin-bottom: 8px;
+  transition: 0.4;
+}
+
+#LoginBtn {
+  background: #159753;
+}
+
+#LoginBtn:hover {
+  background: #18B764;
+}
+
+#RegisterBtn {
+  background: #1557A5;
+}
+
+#RegisterBtn:hover {
+  background: #1870D7;
+}
+
+#ErrorBtn {
+  font-size: 17px;
+  width: 280px;
+  height: 32px;
+  border-radius: 0px;
+  background: #CC3939;
+}
+
+/*
+.Modal {
+  width: 311px;
+  height: 325px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-color: #222325;
+  border: none;
+  border-radius: 11px;
+}
+
+.Overlay {
+  translate: -50%, -50%;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: rgb(0, 0, 0, 0.85);
+  overflow: hidden;
+  padding: 10px;
+  border: none;
+}
+*/
+
+/* Do not touch the "opacity: #", For some reason react-modal needs it either way for opacitys or not */
+/* Dont use react-modal for modals again... */
+.ReactModal__Overlay { 
+  opacity: 0; 
+} 
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transition: opacity 400ms ease-in-out;
+} 
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}

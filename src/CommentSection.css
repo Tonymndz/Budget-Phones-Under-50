@@ -1,0 +1,109 @@
+/*.CommentSection {
+
+}*/
+
+.AmountOfComments {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 18px;
+}
+
+.SendComment {
+  margin-bottom: 20px;
+}
+
+.SendComment img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.SendComment .FlexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.SendComment .FlexColumn {
+  width: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SendComment .FlexColumn a {
+  margin-left: auto;
+  background: #065fd4;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #065fd4;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.SendComment .FlexColumn a:hover {
+  transition: 0.3s;
+  background-color: #222325;
+  color: #ffffff;
+  border: 1px solid #065fd4;
+  transition: 0.3s;
+}
+
+.Comment hr {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  border-top: 2px dotted rgb(68, 63, 63);
+}
+
+.SendComment input {
+  color: white;
+  border: none;
+  background-color: #222325;
+  border-bottom: 1px solid rgb(156, 156, 156);
+  transition: 0.5s;
+}
+
+.SendComment input:hover{
+  border-bottom: 1px solid rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.Comment {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.Comment img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Comment .FlexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.Comment .FlexColumn {
+  width: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Comment h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Comment span {
+  color: gray;
+  font-size: smaller;
+}

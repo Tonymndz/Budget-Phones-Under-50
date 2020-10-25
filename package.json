@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Tonymndz.github.io/",
   "name": "best-budget-phones-under-50-tsx",
   "version": "0.1.0",
   "private": true,
@@ -10,16 +11,22 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "axios": "^0.20.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.1",
     "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
     "typescript": "~3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

@@ -1,0 +1,204 @@
+.NavBar {
+  background-color: #32373d;
+}
+
+.FlexAlign {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 36px;
+}
+
+@media only screen and (max-width: 600px) {
+.NavBar a {
+  display: flex;
+  justify-content: center; /* Container Strench then Center on element */
+  align-items: center; /* Container Strench then Center on element */
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: -0.3px;
+  word-spacing: 0.2px;
+  width: 160px;
+  border-bottom: 3px solid #5c5c5e;
+  border-left: 1px solid #2b2d31;
+  white-space: nowrap; /* Disables text wrap */
+  transition: 0.3s;
+}}
+
+@media only screen and (min-width: 600px) {
+.NavBar a {
+  display: flex;
+  justify-content: center; /* Container Strench then Center on element */
+  align-items: center; /* Container Strench then Center on element */
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  width: 160px;
+  border-bottom: 3px solid #5c5c5e;
+  border-left: 1px solid #2b2d31;
+  white-space: nowrap; /* Disables text wrap */
+  transition: 0.3s;
+}}
+
+@media only screen and (min-width: 600px) {
+#SignIn {
+  margin-top: 4px;
+  margin-right: 10px;
+  width: 113px;
+  height: 27px;
+  margin-left: auto;
+  transition: 0.3s;
+  background: #2285E1;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#SignIn:hover {
+  border: 1px solid #2285E1;
+  background: #32373d;
+}
+
+#LogOut {
+  margin-top: 4px;
+  margin-right: 10px;
+  width: 113px;
+  height: 27px;
+  margin-left: auto;
+  transition: 0.3s;
+  background: #32373d;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#LogOut:hover span {
+  display: none;
+  transition: 0.3s;
+}
+
+#LogOut:hover:before {
+  content:"Logout";
+  margin-top: 4px;
+  margin-right: 10px;
+  width: 113px;
+  height: 27px;
+  margin-left: auto;
+  transition: 0.3s;
+  background: #2285E1;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}}
+
+@media only screen and (max-width: 600px) {
+#SignIn {
+  margin-top: 4px;
+  margin-right: 1px;
+  font-size: 12px;
+  width: 113px;
+  height: 27px;
+  margin-left: auto;
+  transition: 0.3s;
+  background: #2285E1;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#SignIn:hover {
+  border: 1px solid #2285E1;
+  background: #32373d;
+}
+
+#LogOut {
+  margin-top: 4px;
+  margin-right: 10px;
+  font-size: 10px;
+  width: 113px;
+  height: 27px;
+  margin-left: auto;
+  transition: 0.3s;
+  background: #32373d;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#LogOut:hover span {
+  display: none;
+  transition: 0.3s;
+}
+
+#LogOut:hover:before {
+  content:"Logout";
+  margin-top: 4px;
+  margin-right: 10px;
+  font-size: 10px;
+  width: 113px;
+  height: 27px;
+  margin-left: auto;
+  transition: 0.3s;
+  background: #2285E1;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}}
+
+.NavBar a:hover {
+  border-bottom: 3px solid #559aee;
+  transition: 0.3s;
+}
+
+#CurrentPage {
+  transition: 0.3s;
+  border-bottom: 3px solid #EB5E28;
+}
+
+#TheModal {
+  background-color: black;
+  margin-right: 0px;
+}
+
+/* OLD NavBar
+.NavBar {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.FlexAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #262727;
+}
+
+.FlexAlign a {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 10px;
+  background-color: #191a1a;
+  border: 1px solid rgb(66, 66, 66);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.FlexAlign a:hover {
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+*/

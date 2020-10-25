@@ -1,0 +1,48 @@
+.Title {
+  padding-top: 20px;
+}
+
+img {
+  margin-top: 5px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -5px;
+  margin-bottom: 3px;
+  padding-bottom: 0px;
+}
+
+b {
+  font-weight: 600;
+}
+
+p {
+  color: #fff7e9;
+  font-size: 18px;
+  margin-top: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  margin-bottom: 18px;
+  line-height: 26px;
+}
+
+#FlexAligning {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+#Updated {
+  font-size: 11px;
+  color: #feefd3;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1;
+  margin-bottom: 3px;
+}
