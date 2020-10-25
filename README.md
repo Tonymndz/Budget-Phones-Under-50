@@ -17,7 +17,7 @@ All of the pages are very similar, and all of them were created using:
   - Axios
   - Figma
 
-<img align="right" src="https://i.ibb.co/7CKQNft/under50.png"
+<img align="right" src="https://i.ibb.co/7CKQNft/under50.png" />
 Then for the backend of all the sites we used:
   - NodeJs
   - Bcryptjs
