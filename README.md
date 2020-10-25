@@ -1,7 +1,7 @@
 
 # Best Budget Phones Personal Sites
 
-<img align="right" padding="10px" src="https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png">
+<img align="right" src="https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png">
 <img align="right" src="https://i.ibb.co/608twW9/under100.png">
 <img align="right" src="https://i.ibb.co/7CKQNft/under50.png" />
 
