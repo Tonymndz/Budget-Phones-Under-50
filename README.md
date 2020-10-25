@@ -1,12 +1,14 @@
 
 # Best Budget Phones Personal Sites
+
+<img align="center" src="https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png">
+<img align="center" src="https://i.ibb.co/608twW9/under100.png">
+<img align="center" src="https://i.ibb.co/7CKQNft/under50.png" />
+
 There are 3 pages:
   - [Best Budget Phones under $60, $100, $120](http://under-120.bestbudgetphones.technology/)
-    <img align="right" src="https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png">
   - [Best Budget Phones under $100](http://under-100.bestbudgetphones.technology/)
-    <img align="right" src="https://i.ibb.co/608twW9/under100.png">
   - [Best Budget Phones under $50](http://under-50.bestbudgetphones.technology/)
-    <img align="right" src="https://i.ibb.co/7CKQNft/under50.png" />
     
 All of the pages are very similar, and all of them were created using:
   - Create-react-app
