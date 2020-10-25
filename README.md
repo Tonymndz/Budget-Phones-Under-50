@@ -23,9 +23,8 @@ All of the pages are similar and all of them were created using:
 Then for the backend of all the sites used:
   - NodeJs
   - Bcryptjs
-  - MonogoDB
+  - MongoDB
   - Mongoose
-  - NodeJs
   - Express
   - Json Web Token
   - Heroku
