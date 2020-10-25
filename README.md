@@ -1,11 +1,12 @@
-# Best Budget Phones Personal Site
+
+# Best Budget Phones Personal Sites
 There are 3 pages:
   - [Best Budget Phones under $60, $100, $120](http://under-120.bestbudgetphones.technology/)
-  - [![N|Solid](https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png)](http://under-120.bestbudgetphones.technology/)
+   [![N|Solid](https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png)](http://under-120.bestbudgetphones.technology/)
   - [Best Budget Phones under $100](http://under-100.bestbudgetphones.technology/)
-  - [![N|Solid](https://i.ibb.co/608twW9/under100.png)](http://under-100.bestbudgetphones.technology/)/)
+   [![N|Solid](https://i.ibb.co/608twW9/under100.png)](http://under-100.bestbudgetphones.technology/)/)
   - [Best Budget Phones under $50](http://under-50.bestbudgetphones.technology/)
-  - [![N|Solid](https://i.ibb.co/7CKQNft/under50.png)](http://under-50.bestbudgetphones.technology/)
+ [![N|Solid](https://i.ibb.co/7CKQNft/under50.png)](http://under-50.bestbudgetphones.technology/)
     
 All of the pages are very similar, and all of them were created using:
   - Create-react-app
