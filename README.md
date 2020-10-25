@@ -36,7 +36,7 @@ Notables Features:
   - Comments
 
 Github Links:
-  - [Best Budget Phones under $60, $100, $120](https://github.com/Tonymndz/BestBudgetPhones)
-  - [Best Budget Phones under $100](https://github.com/Tonymndz/BestBudgetPhonesUnder100)
-  - [Best Budget Phones under $50](https://github.com/Tonymndz/BestBudgetPhonesUnder50)
-  - [Back-end for all the pages](https://github.com/Tonymndz/BackendForBestBudgetPhones)
+  - [Best Budget Phones under $60, $100, $120](https://github.com/Tonymndz/BestBudgetPhones/tree/master)
+  - [Best Budget Phones under $100](https://github.com/Tonymndz/BestBudgetPhonesUnder100/tree/master)
+  - [Best Budget Phones under $50](https://github.com/Tonymndz/BestBudgetPhonesUnder50/tree/master)
+  - [Back-end for all the pages](https://github.com/Tonymndz/BackendForBestBudgetPhones/tree/master)
