@@ -44,8 +44,8 @@
 ### Running Locally
 ```sh
 # Install dependencies
-npm i install
+npm install
 
-# Start the app on a new window
+# Starts the app on a browser window
 npm start
 ```
