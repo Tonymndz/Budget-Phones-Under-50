@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Budget-Phones-Under-50/static/css/main.807044d0.chunk.css",
-    "main.js": "/Budget-Phones-Under-50/static/js/main.96ebf40e.chunk.js",
-    "main.js.map": "/Budget-Phones-Under-50/static/js/main.96ebf40e.chunk.js.map",
-    "runtime-main.js": "/Budget-Phones-Under-50/static/js/runtime-main.66ab8434.js",
-    "runtime-main.js.map": "/Budget-Phones-Under-50/static/js/runtime-main.66ab8434.js.map",
-    "static/js/2.42f2f643.chunk.js": "/Budget-Phones-Under-50/static/js/2.42f2f643.chunk.js",
-    "static/js/2.42f2f643.chunk.js.map": "/Budget-Phones-Under-50/static/js/2.42f2f643.chunk.js.map",
-    "index.html": "/Budget-Phones-Under-50/index.html",
-    "precache-manifest.9a3435c2423e87dff8da276849974df2.js": "/Budget-Phones-Under-50/precache-manifest.9a3435c2423e87dff8da276849974df2.js",
-    "service-worker.js": "/Budget-Phones-Under-50/service-worker.js",
-    "static/css/main.807044d0.chunk.css.map": "/Budget-Phones-Under-50/static/css/main.807044d0.chunk.css.map",
-    "static/js/2.42f2f643.chunk.js.LICENSE.txt": "/Budget-Phones-Under-50/static/js/2.42f2f643.chunk.js.LICENSE.txt",
-    "static/media/SG_S4.JPG": "/Budget-Phones-Under-50/static/media/SG_S4.0de5a24b.JPG",
-    "static/media/pileOfPhones.jpg": "/Budget-Phones-Under-50/static/media/pileOfPhones.8860b07e.jpg"
+    "main.css": "/budget-phones-under-50/static/css/main.807044d0.chunk.css",
+    "main.js": "/budget-phones-under-50/static/js/main.1f99cfe5.chunk.js",
+    "main.js.map": "/budget-phones-under-50/static/js/main.1f99cfe5.chunk.js.map",
+    "runtime-main.js": "/budget-phones-under-50/static/js/runtime-main.89cc1a2c.js",
+    "runtime-main.js.map": "/budget-phones-under-50/static/js/runtime-main.89cc1a2c.js.map",
+    "static/js/2.42f2f643.chunk.js": "/budget-phones-under-50/static/js/2.42f2f643.chunk.js",
+    "static/js/2.42f2f643.chunk.js.map": "/budget-phones-under-50/static/js/2.42f2f643.chunk.js.map",
+    "index.html": "/budget-phones-under-50/index.html",
+    "precache-manifest.9e1684ebc7e32c6a074268858a610f99.js": "/budget-phones-under-50/precache-manifest.9e1684ebc7e32c6a074268858a610f99.js",
+    "service-worker.js": "/budget-phones-under-50/service-worker.js",
+    "static/css/main.807044d0.chunk.css.map": "/budget-phones-under-50/static/css/main.807044d0.chunk.css.map",
+    "static/js/2.42f2f643.chunk.js.LICENSE.txt": "/budget-phones-under-50/static/js/2.42f2f643.chunk.js.LICENSE.txt",
+    "static/media/SG_S4.JPG": "/budget-phones-under-50/static/media/SG_S4.0de5a24b.JPG",
+    "static/media/pileOfPhones.jpg": "/budget-phones-under-50/static/media/pileOfPhones.8860b07e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.66ab8434.js",
+    "static/js/runtime-main.89cc1a2c.js",
     "static/js/2.42f2f643.chunk.js",
     "static/css/main.807044d0.chunk.css",
-    "static/js/main.96ebf40e.chunk.js"
+    "static/js/main.1f99cfe5.chunk.js"
   ]
 }
