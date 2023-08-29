@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Tonymndz.github.io/budget-phones-under-50/",
-  "name": "budget-phones-under-50",
+  "homepage": "http://Tonymndz.github.io/",
+  "name": "best-budget-phones-under-50-tsx",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,9 +22,9 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
