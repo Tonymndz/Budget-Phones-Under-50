@@ -13,8 +13,8 @@ let Ending = () => {
         <br />
         Whenever you find yourself in a case of needing to compare phones with
         each other. There are these <b>awesome sites</b> that I used, which are
-        called <a href="phonemore.com">phonemore.com</a> or{" "}
-        <a href="versus.com">versus.com</a> and those are one of the{" "}
+        called <a href="https://phonemore.com" target="_blank" rel="noreferrer">phonemore.com</a> or{" "}
+        <a href="https://versus.com" target="_blank" rel="noreferrer">versus.com</a> and those are one of the{" "}
         <b>best sites</b> I've used to compare all these phones here against
         each other and other phones.
       </p>

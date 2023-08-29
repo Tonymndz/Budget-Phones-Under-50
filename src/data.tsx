@@ -1,11 +1,16 @@
-const SG_S4 = require('./SG_S4.JPG')
+const samsungGalaxyS4Img = require('./images/SamsungGalaxyS4.jpg')
+const LG_G4Img = require('./images/LG_G4.jpg')
+const motorolaMotoG6PlayImg = require('./images/LG_G4.jpg')
+const LG_Stylo_3 = require('./images/LG_Stylo_3.jpg')
+const motorolaMotoE6 = require('./images/Motorola-Moto-E6.jpg')
+const Nokia_3point1 = require('./images/Nokia_3.1.jpg')
 
 export const phoneData = [
   {
     priceHeading: true,
     price: "Under $50",
     phone: "Samsung Galaxy S4",
-    imageLink: SG_S4,
+    imageLink: samsungGalaxyS4Img,
     screenInches: "5\"",
     screenPixels: "1080x1920", 
     RAM: "2GB",
@@ -24,7 +29,7 @@ export const phoneData = [
   {
     price: "Under $50",
     phone: "LG G4",
-    imageLink: "https://images-na.ssl-images-amazon.com/images/I/917yfiZtcFL._AC_SX569_.jpg",
+    imageLink: LG_G4Img,
     screenInches: "5.5\"",
     screenPixels: "1440x2560", 
     RAM: "3GB",
@@ -44,7 +49,7 @@ export const phoneData = [
     priceHeading: true,
     price: "Under $50",
     phone: "Motorola Moto G6 Play",
-    imageLink: "https://hightechbuys.com/wp-content/uploads/2019/07/motog6.jpg",
+    imageLink: motorolaMotoG6PlayImg,
     screenInches: "5.7\"",
     screenPixels: "720x1440", 
     RAM: "2GB",
@@ -67,7 +72,7 @@ export const phoneData = [
     priceHeading: true,
     price: "Under $50",
     phone: "LG Stylo 3",
-    imageLink: "https://i.ebayimg.com/images/g/SpIAAOSwXbFb7dcP/s-l1600.jpg",
+    imageLink: LG_Stylo_3,
     screenInches: "5.7\"",
     screenPixels: "1080x1920", 
     RAM: "2GB",
@@ -87,7 +92,7 @@ export const phoneData = [
     priceHeading: true,
     price: "Under $50",
     phone: "Motorola Moto E6",
-    imageLink: "https://www.factoryreset.net/wp-content/uploads/2020/02/Motorola-Moto-E6-Plus-how-to-reset.jpg",
+    imageLink: motorolaMotoE6,
     screenInches: "5.5\"",
     screenPixels: "720x1440", 
     RAM: "2GB",
@@ -106,7 +111,7 @@ export const phoneData = [
   {
     price: "Under $50",
     phone: "Nokia 3.1",
-    imageLink: "https://www.ispyprice.com/static/nwprd_model/nokia-31-plus-8775.jpg",
+    imageLink: Nokia_3point1,
     screenInches: "5.2\"",
     screenPixels: "720x1440", 
     RAM: "2GB",

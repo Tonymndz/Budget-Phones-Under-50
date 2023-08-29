@@ -28,7 +28,7 @@ export interface ReduxStoreReducers {
 }
 
 export const getFetchedComments = async (): Promise<ICommentsData[]> => {
-  const response = await Axios("https://peaceful-ocean-59292.herokuapp.com/Under50") // Put catch error here later
+  const response = await Axios("https://pink-strange-badger.cyclic.cloud/Under50") // Put catch error here later
   return response.data;
 }
 
@@ -39,22 +39,22 @@ export const GetTokenAsString = (): string => {
 }
 
 export const checkLoggedIn = async (token: string): Promise<Boolean> => {
-  const tokenRes = await Axios.post("https://peaceful-ocean-59292.herokuapp.com/users/tokenIsValid", null, { headers: { "x-auth-token": token } })
+  const tokenRes = await Axios.post("https://pink-strange-badger.cyclic.cloud/users/tokenIsValid", null, { headers: { "x-auth-token": token } })
   return tokenRes.data;
 }
 
 export const getUserDataResponse = async (token: string): Promise<IResponseFromJWT> => {
-  const tokenRes = await Axios.get("https://peaceful-ocean-59292.herokuapp.com/users/", { headers: { "x-auth-token": token } })
+  const tokenRes = await Axios.get("https://pink-strange-badger.cyclic.cloud/users/", { headers: { "x-auth-token": token } })
   return tokenRes.data;
 }
 
 export const registerUserResponse = async (username: string, password: string) => {
-  const registerRes = await Axios.post("https://peaceful-ocean-59292.herokuapp.com/users/register", { username: username, password: password })
+  const registerRes = await Axios.post("https://pink-strange-badger.cyclic.cloud/users/register", { username: username, password: password })
   return registerRes;
 }
 
 export const loginUserResponse = async (username: string, password: string): Promise<IResponseFromJWT> => {
-  const loginRes = await Axios.post("https://peaceful-ocean-59292.herokuapp.com/users/login", { username: username, password: password })
+  const loginRes = await Axios.post("https://pink-strange-badger.cyclic.cloud/users/login", { username: username, password: password })
   return loginRes.data;
 }
 

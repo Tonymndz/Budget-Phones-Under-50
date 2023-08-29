@@ -7,10 +7,10 @@ let Title = () => {
     <div className="Title">
       <h1 className="TitleHeader">Best Budget Phones under $50</h1>
       <div id="FlexAligning">
-        <span id="Updated">Updated September 27, 2020 at 11:31 AM</span>
+        <span id="Updated">Updated August 28, 2023 at 11:31 AM</span>
         <span id="Updated">By Tony Mendez</span>
       </div>
-      <img id="PhoneIMG" src={pileOfPhones} alt="Group Of Phones" />
+      <img id="PhoneIMG" src={pileOfPhones} alt="Pile of phones" />
       <p>
         I've compared over <b>150 phones</b> in total, and around 35 of those
         phones were <b>under $50</b>. So if you're looking for extremely cheap

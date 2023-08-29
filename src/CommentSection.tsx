@@ -5,6 +5,7 @@ import axios from 'axios';
 import { CommentDataStateTypes } from './CommentsReducer';
 import { ReduxStoreReducers } from './HelperFunctions';
 import { UserDataState } from './UserReducer';
+const profile_Img = require('./ProfileImg.jpg')
 
 export interface ICommentsData {
   __v: number;
@@ -51,13 +52,13 @@ let SendComment = () => {
   let sendCommentInfo = async () => {
     const username = (userData) ? userData.user.username : "Guest";
     const commentToSend = { "username": username, "comment": text }
-    await axios.post('https://peaceful-ocean-59292.herokuapp.com/Under50/add', commentToSend)
+    await axios.post('https://pink-strange-badger.cyclic.cloud/Under50/add', commentToSend)
     window.location.href = '/';
   }
 
   return <div className="SendComment">
     <div className="FlexRow">
-      <img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84241059_189132118950875_4138507100605120512_n.jpg?_nc_cat=1&_nc_sid=7206a8&_nc_ohc=rf0c5sOmIdkAX_wev0c&_nc_ht=scontent.fphx1-2.fna&_nc_tp=27&oh=acbd5ab3ac9220de16362831557c4f28&oe=5FA73D73" alt="Guest"/>
+      <img src={profile_Img} alt="Guest"/>
       <div className="FlexColumn">
         <input onChange={(e) => textChange(e)} type="text" placeholder="Add a public comment..."/>
         <a href="#?" onClick={sendCommentInfo}>Comment</a>
@@ -71,7 +72,7 @@ let Comment = ({ username, comment, dateCreated }: commentTypes): JSX.Element =>
   return <div className="Comment">
     
     <div className="FlexRow">
-      <img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84241059_189132118950875_4138507100605120512_n.jpg?_nc_cat=1&_nc_sid=7206a8&_nc_ohc=rf0c5sOmIdkAX_wev0c&_nc_ht=scontent.fphx1-2.fna&_nc_tp=27&oh=acbd5ab3ac9220de16362831557c4f28&oe=5FA73D73" alt="Guest"/>
+      <img src={profile_Img} alt="Guest"/>
       <div className="FlexColumn">
         <h4>{username} <span>{timeAgoText}</span></h4>
         <p>{comment}</p>
@@ -90,7 +91,9 @@ const timeAgo = (prevDate): string => {
   const year = day * 365;
   switch (true) {
       case diff < minute:
-          const seconds = Math.round(diff / 1000);
+          let seconds = Math.round(diff / 1000);
+          if (seconds < 0)
+          seconds = 0;
            return `${seconds} ${seconds > 1 ? 'seconds' : 'second'} ago`
       case diff < hour:
           return Math.round(diff / minute) + ' minutes ago';

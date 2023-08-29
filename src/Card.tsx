@@ -1,4 +1,12 @@
 import React from 'react';
+import iphone_x from "./images/iphone-x.png";
+import medium_battery from "./images/medium-battery.png";
+import smartphone_tablet from "./images/smartphone-tablet.png";
+import hdd from "./images/hdd.png";
+import computer_ram from "./images/computer-ram.png";
+import camera from "./images/camera.png";
+import smartphone_cpu from "./images/smartphone-cpu.png";
+import ebay from "./images/ebay.png";
 import "./Card.css"
 
 let Card = ({ ebayPrice, price, phone, imageLink, screenInches, screenPixels, RAM, CPU, CPUCore, batteryLife, cameraPixelsFront, cameraPixelsBack, ebayLink, storage, comparison, comparisonLink, oponnentPhone, comparisonsFromSiteText = "Comparison from Phonemore.com", comparisonButtonText = `See In-depth full comparison`, param2nd = "vs", priceHeading = false}) => {
@@ -26,7 +34,7 @@ let Card = ({ ebayPrice, price, phone, imageLink, screenInches, screenPixels, RA
         <span >{versus[0]}</span>
       </div>
       <a href={comparisonLink} className="ComparisonButton">
-      <img src="https://img.icons8.com/cute-clipart/25/000000/iphone-x.png" alt="Tiny Phone" />
+      <img src={iphone_x} alt="Tiny Phone" />
         {comparisonButtonText}
       </a>
       <span id="comparisonText"></span>
@@ -42,19 +50,19 @@ let Card = ({ ebayPrice, price, phone, imageLink, screenInches, screenPixels, RA
           <span className="Header">{phone}</span>
           <div className="TopBox">
             <div className="BatteryBox">
-              <img className="ResizeImage" src="https://img.icons8.com/nolan/64/medium-battery.png" alt="Battery"/>
+              <img className="ResizeImage" src={medium_battery} alt="Battery"/>
               <span id="Top">{batteryLife}</span>
               <span id="Middle">Hours</span>
               <span id="Bottom">Battery Life</span>
             </div>
             <div className="ScreenSizeBox">
-              <img className="ResizeImage" src="https://img.icons8.com/cotton/64/000000/smartphone-tablet.png" alt="Screen Size" />
+              <img className="ResizeImage" src={smartphone_tablet} alt="Screen Size" />
               <span id="Top">{screenInches}</span>
               <span id="Middle">Inches</span>
               <span id="Bottom">{screenPixels} Pixels</span>
             </div>
             <div className="StorageBox">
-              <img className="ResizeImage" src="https://img.icons8.com/dusk/64/000000/hdd.png" alt="Storage" />
+              <img className="ResizeImage" src={hdd} alt="Storage" />
               <span id="Top">{storage}</span>
               <span id="Middle">Storage</span>
               <span id="Bottom"></span>
@@ -62,26 +70,26 @@ let Card = ({ ebayPrice, price, phone, imageLink, screenInches, screenPixels, RA
           </div>
           <div className="BottomBox">
             <div className="RAMBox">
-              <img className="ResizeImage" src="https://img.icons8.com/plasticine/100/000000/computer-ram.png" alt="RAM"/>
+              <img className="ResizeImage" src={computer_ram} alt="RAM"/>
               <span id="Top">{RAM}</span>
               <span id="Middle">RAM</span>
               <span id="Bottom"></span>
             </div>
             <div className="CameraBox">
-              <img className="ResizeImage" src="https://img.icons8.com/ultraviolet/40/000000/camera.png" alt="Camera" />
+              <img className="ResizeImage" src={camera} alt="Camera" />
               <span id="Top">{cameraPixelsFront} Front</span>
               <span id="Middle">Million Pixels</span>
               <span id="Bottom">{cameraPixelsBack} Back</span>
             </div>
             <div className="CPUBox">
-              <img className="ResizeImage" src="https://img.icons8.com/color/48/000000/smartphone-cpu.png" alt="CPU" />
+              <img className="ResizeImage" src={smartphone_cpu} alt="CPU" />
               <span id="Top">{CPU}</span>
               <span id="Middle">CPU</span>
               <span id="Bottom">{CPUCore}</span>
             </div>
           </div>
           <a href={ebayLink} className="BottomButton">
-            <img src="https://img.icons8.com/color/48/000000/ebay.png" alt="ebay" />
+            <img src={ebay} alt="ebay" />
             {ebayPrice}
           </a>
       </div>
