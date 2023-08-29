@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.28189702.chunk.css",
-    "main.js": "/static/js/main.34847fcc.chunk.js",
-    "main.js.map": "/static/js/main.34847fcc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6be0e8b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6be0e8b1.js.map",
-    "static/js/2.20a6fcd6.chunk.js": "/static/js/2.20a6fcd6.chunk.js",
-    "static/js/2.20a6fcd6.chunk.js.map": "/static/js/2.20a6fcd6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cb91378bef6c9304319b0452115fd3db.js": "/precache-manifest.cb91378bef6c9304319b0452115fd3db.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.28189702.chunk.css.map": "/static/css/main.28189702.chunk.css.map",
-    "static/js/2.20a6fcd6.chunk.js.LICENSE.txt": "/static/js/2.20a6fcd6.chunk.js.LICENSE.txt",
-    "static/media/LG_G4.jpg": "/static/media/LG_G4.23b24168.jpg",
-    "static/media/LG_Stylo_3.jpg": "/static/media/LG_Stylo_3.0c7b3055.jpg",
-    "static/media/Motorola-Moto-E6.jpg": "/static/media/Motorola-Moto-E6.190dc628.jpg",
-    "static/media/Nokia_3.1.jpg": "/static/media/Nokia_3.1.3edaf80f.jpg",
-    "static/media/SamsungGalaxyS4.jpg": "/static/media/SamsungGalaxyS4.0de5a24b.jpg",
-    "static/media/pileOfPhones.jpg": "/static/media/pileOfPhones.8860b07e.jpg"
+    "main.css": "/budget-phones-under-50/static/css/main.28189702.chunk.css",
+    "main.js": "/budget-phones-under-50/static/js/main.ab68cdd4.chunk.js",
+    "main.js.map": "/budget-phones-under-50/static/js/main.ab68cdd4.chunk.js.map",
+    "runtime-main.js": "/budget-phones-under-50/static/js/runtime-main.b3eaa567.js",
+    "runtime-main.js.map": "/budget-phones-under-50/static/js/runtime-main.b3eaa567.js.map",
+    "static/js/2.20a6fcd6.chunk.js": "/budget-phones-under-50/static/js/2.20a6fcd6.chunk.js",
+    "static/js/2.20a6fcd6.chunk.js.map": "/budget-phones-under-50/static/js/2.20a6fcd6.chunk.js.map",
+    "index.html": "/budget-phones-under-50/index.html",
+    "precache-manifest.244d1bf5b889ad3e47b2874f44eb4a34.js": "/budget-phones-under-50/precache-manifest.244d1bf5b889ad3e47b2874f44eb4a34.js",
+    "service-worker.js": "/budget-phones-under-50/service-worker.js",
+    "static/css/main.28189702.chunk.css.map": "/budget-phones-under-50/static/css/main.28189702.chunk.css.map",
+    "static/js/2.20a6fcd6.chunk.js.LICENSE.txt": "/budget-phones-under-50/static/js/2.20a6fcd6.chunk.js.LICENSE.txt",
+    "static/media/LG_G4.jpg": "/budget-phones-under-50/static/media/LG_G4.23b24168.jpg",
+    "static/media/LG_Stylo_3.jpg": "/budget-phones-under-50/static/media/LG_Stylo_3.0c7b3055.jpg",
+    "static/media/Motorola-Moto-E6.jpg": "/budget-phones-under-50/static/media/Motorola-Moto-E6.190dc628.jpg",
+    "static/media/Nokia_3.1.jpg": "/budget-phones-under-50/static/media/Nokia_3.1.3edaf80f.jpg",
+    "static/media/SamsungGalaxyS4.jpg": "/budget-phones-under-50/static/media/SamsungGalaxyS4.0de5a24b.jpg",
+    "static/media/pileOfPhones.jpg": "/budget-phones-under-50/static/media/pileOfPhones.8860b07e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6be0e8b1.js",
+    "static/js/runtime-main.b3eaa567.js",
     "static/js/2.20a6fcd6.chunk.js",
     "static/css/main.28189702.chunk.css",
-    "static/js/main.34847fcc.chunk.js"
+    "static/js/main.ab68cdd4.chunk.js"
   ]
 }
